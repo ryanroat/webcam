@@ -25,6 +25,20 @@ body {
   margin: 30px auto;
 }
 
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.btn-dark {
+  background: #996600;
+  color: #ffffff;
+  border: #664400 2px solid;
+  border-radius: 2px;
+}
+
 
 
 #canvas {
