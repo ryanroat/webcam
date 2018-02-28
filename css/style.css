@@ -9,6 +9,22 @@ body {
   overflow-x: hidden;
 }
 
+.navbar {
+  background: #996600;
+  padding: 15px;
+  height: 40px;
+  color: #ffffff;
+}
+
+.navbar h1 {
+  text-align: center;
+}
+
+.top-container {
+  width: 500px;
+  margin: 30px auto;
+}
+
 #canvas {
   display: none;
 }
