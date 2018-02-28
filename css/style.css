@@ -9,6 +9,11 @@ body {
   overflow-x: hidden;
 }
 
+select {
+  text-align-last: center;
+  text-align: center;
+}
+
 .navbar {
   background: #996600;
   padding: 15px;
@@ -39,6 +44,24 @@ body {
   border-radius: 2px;
 }
 
+.btn-light {
+  background: #ffdd99;
+  color: #664400;
+  border: #996600 2px solid;
+  border-radius: 2px;
+}
+
+.filter-select {
+  height: 40px;
+  background: #996600;
+  color: #ffffff;
+  border: #664400 2px solid;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
 
 
 #canvas {
