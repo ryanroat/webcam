@@ -36,6 +36,7 @@ select {
   width: 100%;
   padding: 10px;
   margin-bottom: 5px;
+  outline-style: none;
 }
 
 .btn-dark {
@@ -45,6 +46,11 @@ select {
   border-radius: 2px;
 }
 
+.btn-dark:hover {
+  background: #ffdd99;
+  color: #996600;
+}
+
 .btn-light {
   background: #ffdd99;
   color: #664400;
@@ -52,6 +58,10 @@ select {
   border-radius: 2px;
 }
 
+.btn-light:hover {
+  background: #996600;
+  color: #ffeecc;
+}
 .filter-select {
   height: 40px;
   background: #996600;
@@ -62,6 +72,11 @@ select {
   width: 100%;
   padding: 10px;
   margin-bottom: 5px;
+}
+
+.filter-select:hover {
+  background: #ffdd99;
+  color: #996600;
 }
 
 .bottom-container {
