@@ -12,6 +12,7 @@ body {
 select {
   text-align-last: center;
   text-align: center;
+  outline-style: none;
 }
 
 .navbar {
