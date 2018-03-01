@@ -18,7 +18,7 @@ select {
   background: #996600;
   padding: 15px;
   height: 40px;
-  color: #ffffff;
+  color: #ffeecc;
 }
 
 .navbar h1 {
@@ -39,7 +39,7 @@ select {
 
 .btn-dark {
   background: #996600;
-  color: #ffffff;
+  color: #ffeecc;
   border: #664400 2px solid;
   border-radius: 2px;
 }
@@ -54,7 +54,7 @@ select {
 .filter-select {
   height: 40px;
   background: #996600;
-  color: #ffffff;
+  color: #ffeecc;
   border: #664400 2px solid;
   border-radius: 2px;
   display: block;
@@ -63,6 +63,22 @@ select {
   margin-bottom: 5px;
 }
 
+.bottom-container {
+  max-width: 960px;
+  margin: auto;
+  padding: 10px;
+}
+
+#photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+#photos img {
+  width: 100%;
+  border: #664400 3px solid;
+}
 
 #canvas {
   display: none;
