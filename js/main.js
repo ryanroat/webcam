@@ -1,5 +1,5 @@
 // global variables
-let width = 500,
+let width = 750,
     height = 0,
     filter = 'none',
     streaming = false;
@@ -39,6 +39,8 @@ video.addEventListener('canplay', function(e) {
     streaming = true;
   }
 }, false);
+
+
 
 // Photo button event
 photoButton.addEventListener('click', function(e){
