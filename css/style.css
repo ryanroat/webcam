@@ -5,8 +5,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #111 url('../img/bg.jpeg');
-  overflow-x: hidden;
+  background: #111 url("../img/bg.jpeg");
+  overflow: hidden;
+  display: flex;
+  /* justify-items: center; */
+  align-items: center;
 }
 
 select {
@@ -28,24 +31,20 @@ select {
 }
 
 .title {
-  padding: 15px;
-  margin: 3vh;
-  /* height: 40px; */
+  padding: 3rem;
   color: #ffeecc;
 }
 
 .title h1 {
-  float: left;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   text-align: center;
-  display: block;
   font-size: 10vw;
 }
 
 .top-container {
   width: 750px;
-  margin: 30px auto;
+  margin: 4rem auto;
 }
 
 .btn {
